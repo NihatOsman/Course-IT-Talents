@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+        <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav>
+                <ul style="text-align:center; list-style:none;">
+                    <li class='inline'><a href="ex3.html"> Главна страница</a></li>
+                    <li class='inline'><a href="forme.html"> За мен</a></li>
+                    <li class='inline'><a href="gallery.html"> Галерия</a></li>
+                    <li class='inline'><a href="myProgrammingSkills.html">Моите умения по програмиране</a></li>
+                    <li class='inline'><a href="contacts.html">Контакти</a></li>
+                    <ul>
+            </nav>
+        </header>
+        
+        <form action="http://www.armenskipop.com" method="POST" style='width:20%; margin:auto'>
+            <fieldset style='padding:2em; padding-top:0;text-align:center'>
+                <legend> Я си напиши името и пощата </legend>
+                <br/>
+                <label for=name>Name:</label>
+                <input type="text" name="name" id="name" size="20" maxlength="50">
+                <br />
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" size="20" maxlength="50">
+                <br />
+
+                <br />
+
+                
+
+                <label for="opinion">Бате кажи хареса ли ти сайта? </label>
+                <br/>
+                <select style='margin-top:0.3em;' name="referrer" id="opinion">
+                        <option value="haresa mi">Хареса ми</option> 
+                        <option value="ne mi haresa">Не ми хареса</option> 
+                        <option value="zle">Зле</option> 
+                        <option value="mnogo zle">Много зле</option> 
+                        <option value="nqma kak da e po zle">Няма как да е по зле :)</option> 
+                        
+                    </select>
+
+                <br/>
+                <br/>
+
+                <label for="comments">Коментар</label>
+                <br />
+                <textarea style='margin:0.3em 0;' placeholder="Драсни един коментар" rows="2" cols="20" id="comments"></textarea>
+                <br/>
+                <input type="submit" value="Цъкни Тук" />
+            </fieldset>
+        </form>
+    
+    </div>
+</body>
+
+</html>

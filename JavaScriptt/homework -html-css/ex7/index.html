@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My PAGE</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body>
+    <div id="conatainer">
+        <header>
+            <section id="topheader">
+                <h1>Movies</h1>
+                <nav id="aside">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li> <a href="">About</a></li>
+                        <li><a href="">Most popular</a></li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Contacts</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <div id="nav">
+                <nav>
+                    <ul>
+                        <li><a href="#">Cinema movies</a></li>
+                        <li><a href="#">TV Serials</a></li>
+                        <li><a href="#">Cartoons</a></li>
+                        <li><a href="#">Anime</a></li>
+                        <li><a href="#">New Movies</a></li>
+                        <li><a href="#">HD Movies</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="w3-container">
+
+        </div>
+
+        <div class="w3-content w3-display-container" style="background:silver;">
+
+
+            <a class="w3-btn-floating w3-hover-dark-grey w3-display-right" style="margin:50%; width:10px; color:blue; " onclick="plusDivs(1)">Next</a>
+
+            <div class="w3-display-container mySlides">
+                <img src="assets/images/image5.jpg" style="margin: 0 25%; width:800px">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    AVATAR
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="assets/images/image6.jpg" style="margin: 0 25%; width:800px">
+                <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                    INCEPTION
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="assets/images/image7.jpg" style="margin: 0 25%; width:800px">
+                <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+                    2012
+                </div>
+            </div>
+
+
+        </div>
+
+        <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+        <div class="main">
+            <p id="p1">Watch your favorite movies online</p>
+            <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto dicta ad tempora facilis ipsam voluptate veritatis,
+                doloremque aliquam, et adipisci tempore officia consectetur! Amet aliquid maxime doloremque dolore ut nesciunt.</p>
+            <div class="allCategory">
+                <div class="category">
+                    <ul class="category-list">
+                        <li><input class="checkbox " type="checkbox" name="category" value="action">
+                            <p style="float:left;width:100px"><a href="#">Action</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="adventure">
+                            <p style="float:left;width:100px"><a href="#">Adventure</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="animation">
+                            <p style="float:left;width:100px"><a href="#">Animation</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="biography">
+                            <p style="float:left;width:100px"><a href="#">Biography</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="comedy">
+                            <p style="float:left;width:100px"><a href="#">Comedy</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="crime">
+                            <p style="float:left;width:100px"><a href="#">Crime</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="Documentary">
+                            <p style="float:left;width:100px"><a href="#">Documentary</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <ul class="category-list">
+                        <li><input class="checkbox " type="checkbox" name="category" value="Drama">
+                            <p style="float:left;width:100px"><a href="#">Drama</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="Family">
+                            <p style="float:left;width:100px"><a href="#">Family</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="Fantasy">
+                            <p style="float:left;width:100px"><a href="#">Fantasy</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="game-show">
+                            <p style="float:left;width:100px"><a href="#">>game-show</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="History">
+                            <p style="float:left;width:100px"><a href="#">History</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="Horror">
+                            <p style="float:left;width:100px"><a href="#">Horror</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="Kids">
+                            <p style="float:left;width:100px"><a href="#">Kids</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <ul class="category-list">
+                        <li><input class="checkbox " type="checkbox" name="category" value="Music">
+                            <p style="float:left;width:100px"><a href="#">Music</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="Musical">
+                            <p style="float:left;width:100px"><a href="#">Musical</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="Mystery">
+                            <p style="float:left;width:100px"><a href="#">Mystery</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="News">
+                            <p style="float:left;width:100px"><a href="#">News</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="Romance">
+                            <p style="float:left;width:100px"><a href="#">Romance</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="Sci-Fi">
+                            <p style="float:left;width:100px"><a href="#">Sci-Fi</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="Short">
+                            <p style="float:left;width:100px"><a href="#">Short</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <ul class="category-list">
+                        <li><input class="checkbox " type="checkbox" name="category" value="Sport">
+                            <p style="float:left;width:100px"><a href="#">Sport</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="Thriller">
+                            <p style="float:left;width:100px"><a href="#">Thriller</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="War">
+                            <p style="float:left;width:100px"><a href="#">War</a></p>
+                        </li>
+                        <li><input class="checkbox " type="checkbox" name="category" value="Western">
+                            <p style="float:left;width:100px"><a href="#">Western</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="movies">
+            <h3>More movies</h3>
+            <div class='moviesImg'>
+                <img src="assets/images/image1.jpg" alt="" />
+                <p>450</p>
+                <p>12:33:23</p>
+                <p>345</p>
+            </div>
+            <div class='moviesImg'>
+                <img src="assets/images/image2.jpg" alt="" />
+                <p>450</p>
+                <p>12:33:23</p>
+                <p>345</p>
+            </div>
+            <div class='moviesImg'>
+                <img src="assets/images/image3.jpg" alt="" />
+                <p>450</p>
+                <p>12:33:23</p>
+                <p>345</p>
+            </div>
+            <div class='moviesImg'>
+                <img src="assets/images/image4.jpg" alt="" />
+                <p>450</p>
+                <p>12:33:23</p>
+                <p>345</p>
+            </div>
+
+        </div>
+        <footer id="footer">
+            <form method="post" enctype="text/plain">
+                <p>MAIL US</p>
+                Your Name:<br>
+                <input type="text" name="name"><br>Yor E-mail:
+                <br>
+                <input type="text" name="mail"><br> Your Message:
+                <br>
+                <input type="text" name="comment" size="50"><br><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+        </footer>
+
+
+
+</body>
+
+</html>

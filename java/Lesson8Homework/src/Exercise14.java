@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Exercise14 {
+	
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter a number: ");
+		int x = input.nextInt();
+		System.out.println(x + "!" + " is " + factoriel(x));
+	}
+
+	static int factoriel(int n) {
+		if (n == 0) {
+			return 1;
+		}
+		return n * factoriel(n - 1);
+
+	}
+}
+

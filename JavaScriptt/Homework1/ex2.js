@@ -1,0 +1,12 @@
+var a = 5;
+var b = 10;
+var sum = (a+b);
+var sub = (a-b);
+var mul = (a*b);
+var mod = (a%b);
+var div = (a/b);
+console.log("Sum is " + sum);
+console.log("Difference is " +sub);
+console.log("Product is " + mul);
+console.log("Remainder is " + mod);
+console.log("Quotient is " +div);

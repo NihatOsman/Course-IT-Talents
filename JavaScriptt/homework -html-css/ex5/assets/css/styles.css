@@ -1,0 +1,51 @@
+#header {
+    background-color:dodgerblue;
+    border: 2px solid black;
+    margin: 10px 24% ;
+   
+    color: white;
+    font-size: 150%;
+    padding: 5px 15px;
+
+    
+}
+nav {
+    margin:25%;
+   font-weight: bold;
+   display: inline;
+
+}
+#main {
+    border: 1px solid green;
+    margin: 15px 25%;
+        box-sizing: border-box;
+
+    
+}
+
+#main h3 {
+    background: green;
+    margin: 1px 0;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+
+    
+   
+}
+a{
+    text-decoration: none;
+    color: #a6a6a6;
+    padding: 5px;
+    
+    
+}
+p{
+    padding: 5px;
+}
+
+#header:last-child {
+    border-right: none;
+    
+}
+

@@ -1,0 +1,35 @@
+#header {
+    background-color:lightblue;
+    margin: 5px 20px ;
+    height: 5em;
+    width: 700px;
+}
+
+#body1 {
+    float: left;
+    background-color: purple;
+    margin:  0 20px ;
+    height: 20em;
+    width: 180px;
+    
+}
+#body2 {
+    float: left;
+ 
+    background-color: green;
+    margin: 0 20px 5px 0;
+    height: 20em;
+    width: 500px;
+    
+}
+
+#footer{
+    clear: both;
+    background-color: dodgerblue;
+    margin: 0 20px;
+    height: 5em;
+    width: 700px;
+   
+}
+
+

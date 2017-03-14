@@ -1,0 +1,33 @@
+#header {
+     background-color: steelblue; 
+     height: 50px;
+     margin: 5px;
+   
+}
+
+#content {
+     background-color: green; 
+     height: 100px;
+     margin: 10px 40px;
+
+}
+
+#leftFooter {
+    float: left;
+    background-color: purple;
+    margin: 0px 40px;
+    height: 30px;
+    width: 46%;
+ 
+}
+
+#rightFooter {
+    float : right;
+    background-color: blue;
+    margin: 0px 40px 0 0 ; 
+    height: 30px;   
+    width: 46%;
+    
+
+}
+

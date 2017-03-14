@@ -1,0 +1,167 @@
+head, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: silver;
+}
+
+#container {
+    border: 1px solid black;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+@media all and (max-width:1169px) {
+    #wrapper {
+        width: 100%;
+    }
+}
+
+#topheader {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#topheader h1 {
+    float: left;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: silver;
+    padding: 0.5em;
+}
+
+#aside {
+    width: 50%;
+    float: right;
+}
+
+#aside ul {
+    display: inline-block;
+}
+
+#aside ul li {
+    text-align: center;
+    float: left;
+    padding: 1.3em;
+    
+}
+
+#aside ul li a {
+    color: cornsilk;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+#aside ul li a:hover {
+    color: white;
+}
+
+#nav {
+    background: red;
+    padding: 0 0 0 10em;
+}
+
+#nav ul {
+    display: inline-block;
+
+}
+#nav ul li {
+    float: left;
+    padding: 1.1em ;
+     text-align: center;
+     margin: 0 1.8em;
+    
+
+}
+#nav ul li a {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+#p1 {
+   font-size: 2em;
+   font-weight: bold;
+   /*color: white;*/
+   text-align: center;
+}
+#p2{
+    text-align: center;
+    margin: 0.5em 25%;
+}
+
+.allCategory{
+  text-align: center;
+   margin: 0 23%;
+   height: 200px;
+   
+}
+.category{
+    float: left;
+    text-align: center;
+    margin: 0.5em 5%;
+}
+
+.moviesImg img {
+    position: absolute;
+
+}
+.movies h3 {
+    text-align: center;
+    color:white;
+    font-size:2em;
+    padding:1em 0;
+  
+   
+
+}
+.moviesImg p {  
+   position: relative; 
+   top: 300px;
+   float: left;
+   padding:1.5em;
+   color: white;
+
+
+}
+.moviesImg {
+    margin: 0 10em ;
+    background: black;
+    
+}
+
+.main{
+    background: cornsilk;
+}
+
+.movies{
+    background: black;
+}
+
+.w3-container{
+    text-align: center;
+    display: inline-block;
+    margin: 0 48%;
+
+}
+#footer{
+    display: inline-block;
+    margin: 30em 40em 5em;
+    border: 3px solid black ;
+    width: 500px;
+    height: 300px;
+    
+    
+}
+
+#footer p {
+    font-size: 2em;
+    margin: 1em;
+
+}

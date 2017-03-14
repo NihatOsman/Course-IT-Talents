@@ -1,0 +1,20 @@
+<script>
+var ogledalenMasiv= true;
+var array = new Array(Number(prompt("vavedete razmera na masiva")));
+
+for (var index = 0; index < array.length; index++) {
+    array[index] = Number(prompt("vavedete " + index + "-q element"));
+}
+ for (var index = 0, index2=1; index < array.length; index++, index2++) {
+       if(array[index]!=array[array.length-index2]){
+           ogledalenMasiv= false;
+           break;
+       }
+    }
+    if(ogledalenMasiv==true){
+        alert("masiva  e ogledalen");
+    }
+    else{
+        alert("masiva ne e ogledalen")
+    }
+</script>

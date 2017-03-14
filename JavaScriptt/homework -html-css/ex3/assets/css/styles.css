@@ -1,0 +1,40 @@
+#header {
+    background-color: black;
+    margin: 5px 20px ;
+    height: 1.5em;
+}
+
+#body1 {
+    float: left;
+    background-color: purple;
+    margin:  0 20px 0 ;
+    height: 20em;
+    width: 23%;
+    
+}
+#body2 {
+    float: left;
+    background-color: green;
+     margin: 0 5px ;
+    height: 20em;
+    width:48%;
+    
+}
+#body3 {
+    float: right;
+    background-color: red;
+    margin: 0px 20px 5px 20px;
+    height: 20em;
+    width: 23%;
+    
+}
+
+#footer{
+    clear: both;
+    background-color: blue;
+    margin: 5px 20px;
+    height: 1.5em;
+   
+}
+
+
