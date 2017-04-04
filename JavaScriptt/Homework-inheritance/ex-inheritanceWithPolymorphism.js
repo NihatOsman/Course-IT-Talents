@@ -25,9 +25,9 @@ function Employee(daySalary, name, age, isMale, workinHours) {
 Student.prototype = Object.create(Person.prototype);
 Student.prototype.showPersonInfo = function () {
     console.log("Student:");
-    console.log("name is " + this.name);// vmesto da povtarqm console.log 3 pati , moje li da izpolzvam super.showPersonInfo();
-    console.log("age is " + this.age);// 
-    console.log("isMale " + this.isMale);//
+    console.log("name is " + this.name);
+    console.log("age is " + this.age);
+    console.log("isMale " + this.isMale);
     console.log("score is " + this.score);
     console.log("-------------");
 }
@@ -52,9 +52,9 @@ Employee.prototype.calculateOvertime = function (hours) {
 
 Employee.prototype.showPersonInfo = function () {
     console.log("Employee:");
-    console.log("name is " + this.name);// 
-    console.log("age is " + this.age);// super.showPersonInfo();
-    console.log("isMale " + this.isMale)//
+    console.log("name is " + this.name);
+    console.log("age is " + this.age);
+    console.log("isMale " + this.isMale)
     console.log("daySalary is " + this.daySalary);
     console.log("-----------");
 }
